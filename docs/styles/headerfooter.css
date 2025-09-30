@@ -1,22 +1,49 @@
-nav{
+html{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+nav {
     background-color: lightskyblue;
     display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.leftside{
-width: 50%;
+
+.leftside {
+    display: flex;
+    align-items: center;
 }
-ul li a{
-    text-decoration: none;
-    color: black;
-    font-size: 22pt;
+
+ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
 }
+
 ul li {
     display: inline;
+    margin-right: 20px; 
 }
-.rightside{
-width: 50%;
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18pt;
+    font-weight: bold;
 }
-.logo{
-    width: 80px;
-    height: 80px;
+
+.rightside {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    padding-right: 20px;
 }
