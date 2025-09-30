@@ -1,35 +1,30 @@
-html{
-    font-family: Arial, Helvetica, sans-serif;
-    
+nav {
+    background-color: lightcoral;
+    padding: 10px;
 }
-header{
-    background-color: gray;
-}
-.navelement{
-    list-style-type: none;
-    text-align: right;
-}
-.navelement a{
-    color:black;
-    text-decoration: none;
-    font-size: 24px;
-}
-.navelement a:hover{
-    cursor: pointer;
-    color:bisque
-}
-nav ul{
-    padding: 0;
-    margin: 0;
+
+nav .nav-container {
     display: flex;
-    justify-content: flex-end;
-    gap: 60px;
-    margin-right: 15px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 30px;
+    justify-content: space-between; /* links left, logo right */
+    align-items: center;
 }
-body, html{
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* spacing between links */
     margin: 0;
     padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+nav .logo img {
+    height: 50px;
+    width: 50px;
 }

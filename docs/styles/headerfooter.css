@@ -1,0 +1,17 @@
+nav{
+    background-color: lightskyblue;
+    display: flex;
+}
+.leftside{
+width: 50%;
+}
+.leftside ul a{
+    text-decoration: none;
+}
+.rightside{
+width: 50%;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
