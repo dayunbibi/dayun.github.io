@@ -5,8 +5,13 @@ nav{
 .leftside{
 width: 50%;
 }
-.leftside ul a{
+ul li a{
     text-decoration: none;
+    color: black;
+    font-size: 22pt;
+}
+ul li {
+    display: inline;
 }
 .rightside{
 width: 50%;
