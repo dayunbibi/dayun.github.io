@@ -1,15 +1,24 @@
-html{
+html, body {
+    height: 100%;
+    margin: 0;
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 nav {
-    background-color: lightskyblue;
+    background-color: rgb(44, 44, 44);
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding: 5px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    box-shadow: rgb(85, 85, 85) 0px 1px 8px 0px;
 }
 
 .leftside {
@@ -20,7 +29,7 @@ nav {
 ul {
     margin: 0;
     padding: 0;
-    padding-left: 25px;
+    padding-left: 35px;
 }
 
 ul li {
@@ -30,9 +39,15 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: black;
-    font-size: 18pt;
-    font-weight: bold;
+    color: rgb(233, 239, 255);
+    font-size: 16pt;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+ul li a:hover {
+    transform: scale(1.2);
+    color: rgb(198, 214, 255);
 }
 
 .rightside {
@@ -46,4 +61,33 @@ ul li a {
     width: 50px;
     height: 50px;
     padding-right: 20px;
+}
+
+main {
+    flex: 1;
+    margin: 10px;
+    background-color: white;
+}
+
+footer {
+    background-color: rgb(240, 240, 240);
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    box-shadow: rgb(85, 85, 85) 0px 1px 8px 0px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.left-footer {
+    font-size: 10pt;
+}
+
+.right-footer {
+    cursor: pointer;
+    font-size: 10pt;
 }
