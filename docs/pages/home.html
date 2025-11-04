@@ -3,21 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rastislav">
+    <meta name="keywords" content="Header and footer">
+    <meta name="Description" content="Header and footer of our page Culinary Roots">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Home Page</title>
 </head>
 <body>
-    <header id="header">
+    <header>
         <nav>
-            <ul>
-                <li class="navelement"><a href="home.html">Home</a></li>
-                <li class="navelement"><a href="#">Brose</a></li>
-                <li class="navelement"><a href="#">About</a></li>
-                <li class="navelement"><a href="#">Contact</a></li>
-                <li><img src="../images/placeholder.png" alt="Website Logo" width="50px" height="50px"></li>
-            </ul>
+            <div class="leftside">
+                <ul style="margin-bottom: 0;">
+                    <li><a href="#" class="bbh-sans-hegarty-regular active">HOME</a></li>
+                    <li><a href="#" class="bbh-sans-hegarty-regular">BROWSE</a></li>
+                    <li><a href="#" class="bbh-sans-hegarty-regular">SHOP</a></li>
+                    <li><a href="#" class="bbh-sans-hegarty-regular">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="rightside">
+                <!-- <img src="../images/image.png" alt="Logo" class="logo"> -->
+                <a class="logoText" href="home.html">Culinary Roots</a>
+            </div>
         </nav>
     </header>
+    <main>
+        <div class="card" style="width: 18rem;">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/1carbonara.jpg" class="d-block w-100" alt="Image of spaghetti carbonara">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/2carbonara.jpg" class="d-block w-100" alt="Image of spaghetti carbonara">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/3carbonara.jpg" class="d-block w-100" alt="Image of spaghetti carbonara">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">🇮🇹 Spaghetti Carbonara</h5>
+                <p class="card-text">A creamy pasta dish with eggs, Pecorino Romano, pancetta, and black pepper.</p>
+                <a href="#" class="btn btn-primary">See recipe</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-row">
+            <a class="left-footer">&copy;2025 Culinary Roots</a>
+            <a class="right-footer" href="#top">&uarr;</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
