@@ -7,7 +7,7 @@
     <meta name="keywords" content="Browse Page">
     <meta name="Description" content="Browse page of Culinary Roots">
     <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/shop.css">
+    <link rel="stylesheet" href="../styles/browse.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -40,6 +40,399 @@
         </nav>
     </header>
     <main>
+        <h1 class="titleBrowse">Browse our recipes!</h1>
+        <div class="row justify-content-center mb-5">
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselCarbonara" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1carbonara.jpg" class="d-block w-100" alt="Image of spaghetti carbonara">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2carbonara.jpg" class="d-block w-100" alt="Image of spaghetti carbonara">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3carbonara.jpg" class="d-block w-100" alt="Image of spaghetti carbonara">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCarbonara" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCarbonara" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇮🇹 Spaghetti Carbonara</h5>
+                        <p class="card-text">A creamy pasta dish with eggs, Pecorino Romano, pancetta, and black pepper.</p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCarbonara">See recipe</a>
+
+                        <div class="modal fade" id="modalCarbonara" tabindex="-1" aria-labelledby="modalCarbonaraLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">🇮🇹 Spaghetti Carbonara Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: Italy</h4>
+                                <h4>Historical information:</h4>
+                                <p>Carbonara originated in Rome during WWII, when American soldiers introduced bacon and powdered eggs, inspiring local cooks to adapt it with Italian ingredients.</p>
+                                <h4>Difficulty: 3</h4>
+                                <h4>Recipe:</h4>
+                                <p style="margin: 0;">1. Cook 400g spaghetti in salted boiling water until al dente.</p>
+                                <p style="margin: 0;">2. Fry 150g pancetta until crispy.</p>
+                                <p style="margin: 0;">3. In a bowl, whisk 3 large eggs with 100g grated Pecorino Romano and black pepper.</p>
+                                <p style="margin: 0;">4. Drain pasta and return to the pot off heat.</p>
+                                <p style="margin: 0;">5. Quickly toss pasta with pancetta and egg mixture until creamy.</p>
+                                <p style="margin: 0;">6. Serve immediately with extra Pecorino and black pepper.</p>
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselMargherita" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1margherita.jpg" class="d-block w-100" alt="Image of margherita">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2margherita.jpg" class="d-block w-100" alt="Image of margherita">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3margherita.jpg" class="d-block w-100" alt="Image of margherita">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMargherita" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselMargherita" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇮🇹 Margherita Pizza</h5>
+                        <p class="card-text">A simple pizza topped with tomato, mozzarella, and basil, representing the Italian flag.</p>
+                        <a href="#" class="btn btn-primary">See recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselSushi" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1sushi.jpg" class="d-block w-100" alt="Image of sushi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2sushi.jpg" class="d-block w-100" alt="Image of sushi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3sushi.jpg" class="d-block w-100" alt="Image of sushi">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSushi" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselSushi" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇯🇵 Sushi (Nigiri)</h5>
+                        <p class="card-text">Vinegared rice topped with raw or cooked seafood, sometimes with wasabi.</p>
+                        <a href="#" class="btn btn-primary">See recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselRamen" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1ramen.jpg" class="d-block w-100" alt="Image of ramen">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2ramen.jpg" class="d-block w-100" alt="Image of ramen">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3ramen.jpg" class="d-block w-100" alt="Image of ramen">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselRamen" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselRamen" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇯🇵 Ramen</h5>
+                        <p class="card-text">Wheat noodles in a savory broth with toppings like pork, eggs, and scallions.</p>
+                        <a href="#" class="btn btn-primary">See recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-5">
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselTacos" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1tacos.jpg" class="d-block w-100" alt="Image of tacos">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2tacos.jpg" class="d-block w-100" alt="Image of tacos">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3tacos.jpg" class="d-block w-100" alt="Image of tacos">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTacos" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselTacos" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇲🇽 Tacos al Pastor</h5>
+                        <p class="card-text">Corn tortillas filled with spit-roasted pork, pineapple, onion, and cilantro.</p>
+                        <a href="#" class="btn btn-primary">See recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselMole" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1mole.jpg" class="d-block w-100" alt="Image of mole">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2mole.jpg" class="d-block w-100" alt="Image of mole">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3mole.jpg" class="d-block w-100" alt="Image of mole">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMole" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselMole" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇲🇽 Mole Poblano</h5>
+                        <p class="card-text">A rich sauce of chiles, spices, chocolate, and nuts, often served over poultry.</p>
+                        <a href="#" class="btn btn-primary">See recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselCoq" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1coq.jpg" class="d-block w-100" alt="Image of coq">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2coq.jpg" class="d-block w-100" alt="Image of coq">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3coq.jpg" class="d-block w-100" alt="Image of coq">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCoq" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCoq" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇫🇷 Coq au Vin</h5>
+                        <p class="card-text">Chicken braised with red wine, mushrooms, lardons, and onions.</p>
+                        <a href="#" class="btn btn-primary">See recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselCreme" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1creme.jpg" class="d-block w-100" alt="Image of creme bruele">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2creme.jpg" class="d-block w-100" alt="Image of creme bruele">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3creme.jpg" class="d-block w-100" alt="Image of creme bruele">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCreme" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouseCreme" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇫🇷 Crème Brûlée</h5>
+                        <p class="card-text">A custard dessert topped with a caramelized sugar crust. </p>
+                        <a href="#" class="btn btn-primary">See recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-4">
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselButter" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1butter.jpg" class="d-block w-100" alt="Image of butter chicken">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2butter.jpg" class="d-block w-100" alt="Image of butter chicken">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3butter.jpg" class="d-block w-100" alt="Image of butter chicken">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselButter" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselButter" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇮🇳 Butter Chicken</h5>
+                        <p class="card-text">Tender chicken in a creamy tomato-butter sauce.</p>
+                        <a href="#" class="btn btn-primary">See recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselBiryani" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1biryani.jpg" class="d-block w-100" alt="Image of Biryani">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2biryani.jpg" class="d-block w-100" alt="Image of Biryani">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3biryani.jpg" class="d-block w-100" alt="Image of Biryani">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselBiryani" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselBiryani" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇮🇳 Biryani</h5>
+                        <p class="card-text">Aromatic rice layered with marinated meat, saffron, and spices.</p>
+                        <a href="#" class="btn btn-primary">See recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselPad" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1pad.jpg" class="d-block w-100" alt="Image of Pad Thai">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2pad.jpg" class="d-block w-100" alt="Image of Pad Thai">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3pad.jpg" class="d-block w-100" alt="Image of Pad Thai">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPad" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPad" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇹🇭 Pad Thai</h5>
+                        <p class="card-text">Stir-fried rice noodles with egg, tofu, shrimp, peanuts, and lime.</p>
+                        <a href="#" class="btn btn-primary">See recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselCurry" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1green.jpg" class="d-block w-100" alt="Image of curry">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2green.jpg" class="d-block w-100" alt="Image of curry">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3green.jpg" class="d-block w-100" alt="Image of curry">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCurry" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCurry" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇹🇭 Green Curry</h5>
+                        <p class="card-text">A spicy coconut milk curry with green chilies, Thai basil, and eggplant.</p>
+                        <a href="#" class="btn btn-primary">See recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
     <footer>
