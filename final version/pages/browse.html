@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rastislav">
+    <meta name="keywords" content="Browse Page">
+    <meta name="Description" content="Browse page of Culinary Roots">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/browse.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <title>Browse Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="leftside">
+            <ul>
+                <li><a href="index.html" class="bbh-sans-hegarty-regular">HOME</a></li>
+                <li><a href="browse.html" class="bbh-sans-hegarty-regular">BROWSE</a></li>
+                <li><a href="shop.html" class="bbh-sans-hegarty-regular">SHOP</a></li>
+                <li><a href="contact.html" class="bbh-sans-hegarty-regular">CONTACT</a></li>
+            </ul>
+            </div>
+            
+            <div class="logo-area">
+                <img src="../images/image.png" alt="Culinary Roots Logo" class="logo">
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titleBrowse">Browse our recipes!</h1>
+        <div class="row justify-content-center mb-5">
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselCarbonara" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1carbonara.jpg" class="d-block w-100" alt="Image of spaghetti carbonara">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2carbonara.jpg" class="d-block w-100" alt="Image of spaghetti carbonara">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3carbonara.jpg" class="d-block w-100" alt="Image of spaghetti carbonara">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCarbonara" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCarbonara" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                    <div class="card-body">
+                        <h5 class="card-title">🇮🇹 Spaghetti Carbonara</h5>
+                        <p class="card-text">A creamy pasta dish with eggs, Pecorino Romano, pancetta, and black pepper.</p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCarbonara">See recipe</a>
+
+                        <div class="modal fade" id="modalCarbonara" tabindex="-1" aria-labelledby="modalCarbonaraLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">🇮🇹 Spaghetti Carbonara Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: Italy</h4>
+                                <h4>Historical information:</h4>
+                                <p>Carbonara originated in Rome during WWII, when American soldiers introduced bacon and powdered eggs, inspiring local cooks to adapt it with Italian ingredients.</p>
+                                <h4>Difficulty: 3/5</h4>
+                                <h4>Recipe:</h4>
+                                <p style="margin: 0;">1. Cook 400g spaghetti in salted boiling water until al dente.</p>
+                                <p style="margin: 0;">2. Fry 150g pancetta until crispy.</p>
+                                <p style="margin: 0;">3. In a bowl, whisk 3 large eggs with 100g grated Pecorino Romano and black pepper.</p>
+                                <p style="margin: 0;">4. Drain pasta and return to the pot off heat.</p>
+                                <p style="margin: 0;">5. Quickly toss pasta with pancetta and egg mixture until creamy.</p>
+                                <p style="margin: 0; margin-bottom: 8px;">6. Serve immediately with extra Pecorino and black pepper.</p>
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselMargherita" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1margaretta.jpg" class="d-block w-100" alt="Image of margherita">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2margaretta.jpg" class="d-block w-100" alt="Image of margherita">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3margaretta.jpg" class="d-block w-100" alt="Image of margherita">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMargherita" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselMargherita" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇮🇹 Margherita Pizza</h5>
+                        <p class="card-text">A simple pizza topped with tomato, mozzarella, and basil, representing the Italian flag.</p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMargherita">See recipe</a>
+                        <div class="modal fade" id="modalMargherita" tabindex="-1" aria-labelledby="modalMargheritaLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">🇮🇹 Margherita Pizza Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: Italy</h4>
+                                <h4>Historical information:</h4>
+                                <p>Created in Naples in 1889 to honor Queen Margherita of Savoy, this pizza became the symbol of Italian cuisine worldwide.</p>
+                                <h4>Difficulty: 2/5</h4>
+                                <h4>Recipe:</h4>
+                                <p style="margin: 0;">1. Preheat oven to 250°C (480°F).</p>
+                                <p style="margin: 0;">2. Roll out 250g pizza dough on a floured surface.</p>
+                                <p style="margin: 0;">3. Spread 100g tomato sauce evenly over dough.</p>
+                                <p style="margin: 0;">4. Top with 125g sliced mozzarella and fresh basil leaves.</p>
+                                <p style="margin: 0;">5. Drizzle with olive oil.</p>
+                                <p style="margin: 0; margin-bottom: 8px;">6. Bake for 7-10 minutes until crust is golden and cheese is bubbly.</p>
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselSushi" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1sushi.jpg" class="d-block w-100" alt="Image of sushi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2sushi.jpg" class="d-block w-100" alt="Image of sushi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3sushi.jpg" class="d-block w-100" alt="Image of sushi">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSushi" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselSushi" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇯🇵 Sushi (Nigiri)</h5>
+                        <p class="card-text">Vinegared rice topped with raw or cooked seafood, sometimes with wasabi.</p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSushi">See recipe</a>
+                        <div class="modal fade" id="modalSushi" tabindex="-1" aria-labelledby="modalSushi" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">🇯🇵 Sushi (Nigiri) Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: Japan</h4>
+                                <h4>Historical information:</h4>
+                                <p>Sushi evolved from fermented rice preservation in Southeast Asia, becoming refined in Edo (Tokyo) during the 19th century as a fast food.</p>
+                                <h4>Difficulty: 4/5</h4>
+                                <h4>Recipe:</h4>
+                                <p style="margin: 0;">1. Rinse 300g sushi rice until water runs clear, cook, and let cool.</p>
+                                <p style="margin: 0;">2. Mix rice with 3 tbsp rice vinegar, 1 tbsp sugar, and 1 tsp salt.</p>
+                                <p style="margin: 0;">3. Slice 200g fresh fish into thin pieces.</p>
+                                <p style="margin: 0;">4. Wet hands, form small rice oblongs.</p>
+                                <p style="margin: 0;">5. Place a slice of fish over each rice piece, dab with wasabi if desired.</p>
+                                <p style="margin: 0; margin-bottom: 8px;">6. Serve with soy sauce, pickled ginger, and wasabi.</p>
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselRamen" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1ramen.jpg" class="d-block w-100" alt="Image of ramen">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2ramen.jpg" class="d-block w-100" alt="Image of ramen">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3ramen.jpg" class="d-block w-100" alt="Image of ramen">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselRamen" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselRamen" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇯🇵 Ramen</h5>
+                        <p class="card-text">Wheat noodles in a savory broth with toppings like pork, eggs, and scallions.</p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalRamen">See recipe</a>
+                        <div class="modal fade" id="modalRamen" tabindex="-1" aria-labelledby="modalRamen" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">🇯🇵 Ramen Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: Japan</h4>
+                                <h4>Historical information:</h4>
+                                <p>Ramen came from Chinese noodle soups but developed into a Japanese comfort food in the early 20th century. Post-WWII, it became a symbol of affordable nourishment.</p>
+                                <h4>Difficulty: 3/5</h4>
+                                <h4>Recipe:</h4>
+                                <p style="margin: 0;">1. Prepare 1.5 liters chicken or pork broth, simmer with garlic, ginger, and soy sauce for 30 minutes.</p>
+                                <p style="margin: 0;">2. Boil 400g ramen noodles until tender.</p>
+                                <p style="margin: 0;">3. Soft-boil 4 eggs, peel, and marinate in soy sauce mixture.</p>
+                                <p style="margin: 0;">4. Slice cooked pork belly into thin pieces.</p>
+                                <p style="margin: 0; margin-bottom: 8px;">5. Assemble bowls: noodles, broth, pork, egg, scallions, and nori.</p>
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-5">
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselTacos" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1tacos.jpg" class="d-block w-100" alt="Image of tacos">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2tacos.jpg" class="d-block w-100" alt="Image of tacos">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3tacos.jpg" class="d-block w-100" alt="Image of tacos">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTacos" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselTacos" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇲🇽 Tacos al Pastor</h5>
+                        <p class="card-text">Corn tortillas filled with spit-roasted pork, pineapple, onion, and cilantro.</p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTacos">See recipe</a>
+                        <div class="modal fade" id="modalTacos" tabindex="-1" aria-labelledby="modalTacos" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">🇲🇽 Tacos al Pastor Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: Mexico</h4>
+                                <h4>Historical information:</h4>
+                                <p>Inspired by Lebanese immigrants shawarma techniques in the 20th century, it became a uniquely Mexican street food.</p>
+                                <h4>Difficulty: 3/5</h4>
+                                <h4>Recipe:</h4>
+                                <p style="margin: 0;">1. Marinate 500g pork shoulder with chili paste, garlic, pineapple juice, and vinegar for 4 hours.</p>
+                                <p style="margin: 0;">2. Grill or roast pork until cooked and slightly charred.</p>
+                                <p style="margin: 0;">3. Warm corn tortillas.</p>
+                                <p style="margin: 0;">4. Assemble tacos with pork, diced pineapple, chopped onion, and cilantro.</p>
+                                <p style="margin: 0; margin-bottom: 8px;">5. Serve with lime wedges.</p>
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselMole" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1mole.jpg" class="d-block w-100" alt="Image of mole">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2mole.jpg" class="d-block w-100" alt="Image of mole">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3mole.jpg" class="d-block w-100" alt="Image of mole">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMole" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselMole" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇲🇽 Mole Poblano</h5>
+                        <p class="card-text">A rich sauce of chiles, spices, chocolate, and nuts, often served over poultry.</p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMole">See recipe</a>
+                        <div class="modal fade" id="modalMole" tabindex="-1" aria-labelledby="modalMole" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">🇲🇽 Mole Poblano Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: Mexico</h4>
+                                <h4>Historical information:</h4>
+                                <p>Mole is tied to Puebla's colonial history, said to have been created by nuns who blended Old World and Indigenous ingredients.</p>
+                                <h4>Difficulty: 5/5</h4>
+                                <h4>Recipe:</h4>
+                                <p style="margin: 0;">1. Toast 3 dried chiles (ancho, pasilla, mulato) and soak in hot water.</p>
+                                <p style="margin: 0;">2. Blend chiles with 50g almonds, 30g raisins, 2 garlic cloves, 1 onion, and 30g dark chocolate.</p>
+                                <p style="margin: 0;">3. Simmer mixture with 500ml chicken broth for 20 minutes.</p>
+                                <p style="margin: 0;">4. Season with cinnamon, cloves, and salt.</p>
+                                <p style="margin: 0; margin-bottom: 8px;">5. Pour over cooked chicken and simmer for 15 minutes.</p>
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselCoq" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1coq.jpg" class="d-block w-100" alt="Image of coq">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2coq.jpg" class="d-block w-100" alt="Image of coq">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3coq.jpg" class="d-block w-100" alt="Image of coq">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCoq" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCoq" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇫🇷 Coq au Vin</h5>
+                        <p class="card-text">Chicken braised with red wine, mushrooms, lardons, and onions.</p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCoq">See recipe</a>
+                        <div class="modal fade" id="modalCoq" tabindex="-1" aria-labelledby="modalCoq" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">🇫🇷 Coq au Vina Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: France</h4>
+                                <h4>Historical information:</h4>
+                                <p>Once a peasant dish, Julia Child popularized it globally. Its roots date back to Roman times, showcasing wine in French cooking.</p>
+                                <h4>Difficulty: 4/5</h4>
+                                <h4>Recipe:</h4>
+                                <p style="margin: 0;">1. Brown 1.5 kg chicken pieces in butter. Remove and set aside.</p>
+                                <p style="margin: 0;">2. Sauté 100g lardons, 200g mushrooms, and 1 chopped onion.</p>
+                                <p style="margin: 0;">3. Return chicken to pot, add 500ml red wine and 200ml chicken broth.</p>
+                                <p style="margin: 0;">4. Add 2 garlic cloves and bouquet garni.</p>
+                                <p style="margin: 0;">5. Simmer for 45-60 minutes until chicken is tender.</p>
+                                <p style="margin: 0; margin-bottom: 8px;">6. Serve hot with sauce spooned over chicken.</p>
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselCreme" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1creme.jpg" class="d-block w-100" alt="Image of creme bruele">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2creme.jpg" class="d-block w-100" alt="Image of creme bruele">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3creme.jpg" class="d-block w-100" alt="Image of creme bruele">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCreme" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouseCreme" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇫🇷 Crème Brûlée</h5>
+                        <p class="card-text">A custard dessert topped with a caramelized sugar crust.</p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCreme">See recipe</a>
+                        <div class="modal fade" id="modalCreme" tabindex="-1" aria-labelledby="modalCreme" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">🇫🇷 Crème Brûlée Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: France</h4>
+                                <h4>Historical information:</h4>
+                                <p>While France claims it, Spain's crema catalana and England's burnt cream suggest multiple European origins. French chefs refined it in the 17th century.</p>
+                                <h4>Difficulty: 3/5</h4>
+                                <h4>Recipe:</h4>
+                                <p style="margin: 0;">1. Preheat oven to 150°C (300°F).</p>
+                                <p style="margin: 0;">2. Whisk 4 egg yolks with 100g sugar until pale.</p>
+                                <p style="margin: 0;">3. Heat 500ml cream with vanilla, then slowly pour into yolks while whisking.</p>
+                                <p style="margin: 0;">4. Pour mixture into ramekins, place in a water bath, bake 35-40 minutes.</p>
+                                <p style="margin: 0; margin-bottom: 8px;">5. Chill, then sprinkle sugar on top and caramelize with a torch.</p>
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-4">
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselButter" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1butter.jpg" class="d-block w-100" alt="Image of butter chicken">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2butter.jpg" class="d-block w-100" alt="Image of butter chicken">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3butter.jpg" class="d-block w-100" alt="Image of butter chicken">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselButter" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselButter" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇮🇳 Butter Chicken</h5>
+                        <p class="card-text">Tender chicken in a creamy tomato-butter sauce.</p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalButter">See recipe</a>
+                        <div class="modal fade" id="modalButter" tabindex="-1" aria-labelledby="modalButter" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">🇮🇳 Butter Chicken Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: India</h4>
+                                <h4>Historical information:</h4>
+                                <p>Created in Delhi in the 1950s at Moti Mahal restaurant, it is now one of India's most beloved curries worldwide.</p>
+                                <h4>Difficulty: 3/5</h4>
+                                <h4>Recipe:</h4>
+                                <p style="margin: 0;">1. Marinate 500g chicken in yogurt, garlic, ginger, and spices for two hours.</p>
+                                <p style="margin: 0;">2. Cook chicken in butter until browned.</p>
+                                <p style="margin: 0;">3. Sauté onion, tomato puree, and spices in butter.</p>
+                                <p style="margin: 0;">4. Add chicken, simmer 15 minutes.</p>
+                                <p style="margin: 0; margin-bottom: 8px;">5. Stir in 100ml cream and garnish with cilantro.</p>
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselBiryani" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1biryani.jpg" class="d-block w-100" alt="Image of Biryani">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2biryani.jpg" class="d-block w-100" alt="Image of Biryani">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3biryani.jpg" class="d-block w-100" alt="Image of Biryani">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselBiryani" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselBiryani" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇮🇳 Biryani</h5>
+                        <p class="card-text">Aromatic rice layered with marinated meat, saffron, and spices.</p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBiryani">See recipe</a>
+                        <div class="modal fade" id="modalBiryani" tabindex="-1" aria-labelledby="modalBiryani" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">🇮🇳 Biryani Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: India</h4>
+                                <h4>Historical information:</h4>
+                                <p>Originating in Persia and refined by Mughal kitchens, biryani is now a festive dish with countless regional versions.</p>
+                                <h4>Difficulty: 5/5</h4>
+                                <h4>Recipe:</h4>
+                                <p style="margin: 0;">1. Marinate 500g meat with yogurt, ginger, garlic, and spices for two hours.</p>
+                                <p style="margin: 0;">2. Par-cook 300g basmati rice with saffron.</p>
+                                <p style="margin: 0;">3. Fry onions until golden.</p>
+                                <p style="margin: 0;">4. Layer meat and rice in a pot, sprinkle with fried onions.</p>
+                                <p style="margin: 0;">5. Cover, cook on low heat 30 minutes.</p>
+                                <p style="margin: 0; margin-bottom: 8px;">6. Serve with raita.</p>
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselPad" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1pad.jpg" class="d-block w-100" alt="Image of Pad Thai">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2pad.jpg" class="d-block w-100" alt="Image of Pad Thai">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3pad.jpg" class="d-block w-100" alt="Image of Pad Thai">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPad" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden" data-bs-toggle="modal" data-bs-target="#modalCarbonara">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPad" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇹🇭 Pad Thai</h5>
+                        <p class="card-text">Stir-fried rice noodles with egg, tofu, shrimp, peanuts, and lime.</p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPad">See recipe</a>
+                        <div class="modal fade" id="modalPad" tabindex="-1" aria-labelledby="modalPad" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">🇹🇭 Pad Thai Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: Thailand</h4>
+                                <h4>Historical information:</h4>
+                                <p>Introduced in the 1930s as part of a national modernization campaign, Pad Thai symbolized Thai identity and self-sufficiency.</p>
+                                <h4>Difficulty: 3/5</h4>
+                                <h4>Recipe:</h4>
+                                <p style="margin: 0;">1. Soak 200g rice noodles in warm water until soft.</p>
+                                <p style="margin: 0;">2. Sauté 2 cloves garlic, 150g shrimp, and 100g tofu.</p>
+                                <p style="margin: 0;">3. Push ingredients aside, scramble 2 eggs.</p>
+                                <p style="margin: 0;">4. Add noodles, 3 tbsp fish sauce, 1 tbsp tamarind paste, and 1 tbsp sugar.</p>
+                                <p style="margin: 0; margin-bottom: 8px;">5. Toss everything together, garnish with crushed peanuts and lime wedges.</p>
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                    <div id="carouselCurry" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/1green.jpg" class="d-block w-100" alt="Image of curry">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/2green.jpg" class="d-block w-100" alt="Image of curry">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/3green.jpg" class="d-block w-100" alt="Image of curry">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCurry" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCurry" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">🇹🇭 Green Curry</h5>
+                        <p class="card-text">A spicy coconut milk curry with green chilies, Thai basil, and eggplant.</p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalGreen">See recipe</a>
+                        <div class="modal fade" id="modalGreen" tabindex="-1" aria-labelledby="modalGreen" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">🇹🇭 Green Curry Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: Thailand</h4>
+                                <h4>Historical information:</h4>
+                                <p>Thai curries trace back centuries, blending local herbs with influences from Indian and Chinese spice routes.</p>
+                                <h4>Difficulty: 4/5</h4>
+                                <h4>Recipe:</h4>
+                                <p style="margin: 0;">1. Blend 4 green chilies, garlic, lemongrass, and galangal into a paste.</p>
+                                <p style="margin: 0;">2. Fry paste in 2 tbsp oil, add 400ml coconut milk.</p>
+                                <p style="margin: 0;">3. Add 300g chicken and cook 10 minutes.</p>
+                                <p style="margin: 0;">4. Add eggplant and simmer until tender.</p>
+                                <p style="margin: 0; margin-bottom: 8px;">5. Stir in fish sauce, sugar, and Thai basil. Serve hot.</p>
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="titleBrowse mt-5">🎄 Christmas Recipes</h1>
+<div class="row justify-content-center mb-5">
+    <div class="col d-flex justify-content-center">
+        <div class="card" style="width: 20rem;">
+            <div id="carouselCookies" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/christmascookies1.jpg" class="d-block w-100" alt="Christmas Cookies">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/christmascookies2.jpg" class="d-block w-100" alt="Christmas Cookies">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/christmascookies3.jpg.webp" class="d-block w-100" alt="Christmas Cookies">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCookies" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCookies" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">🎄 Soft Christmas Sugar Cookies</h5>
+                <p class="card-text">Soft, buttery sugar cookies topped with festive holiday sprinkles.</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCookies">See recipe</a>
+                <div class="modal fade" id="modalCookies" tabindex="-1" aria-labelledby="modalCookiesLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5">🎄 Soft Christmas Sugar Cookies Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: United States</h4>
+                                <h4>Historical information:</h4>
+                                <p>A classic holiday cookie dating back to 19th‑century American Christmas baking traditions.</p>
+                                <h4>Difficulty: 1/5</h4>
+                                <h4>Recipe:</h4>
+                                <p>1. Preheat oven to 180°C (350°F).</p>
+                                <p>2. Cream 100g butter with 100g sugar.</p>
+                                <p>3. Add 1 egg + 1 tsp vanilla.</p>
+                                <p>4. Mix in 200g flour + 1 tsp baking powder.</p>
+                                <p>5. Shape into balls, flatten, add sprinkles.</p>
+                                <p>6. Bake 10–12 minutes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+        <div class="card" style="width: 20rem;">
+            <div id="carouselRoast" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/turkey1.jpg" class="d-block w-100" alt="Holiday Roast">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/turkey2.jpg.webp" class="d-block w-100" alt="Holiday Roast">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/turkey3.jpg.webp" class="d-block w-100" alt="Holiday Roast">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselRoast" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselRoast" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">🍖 Herb‑Butter Holiday Roast</h5>
+                <p class="card-text">A juicy, aromatic centerpiece for any Christmas table.</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalRoast">See recipe</a>
+
+                <div class="modal fade" id="modalRoast" tabindex="-1" aria-labelledby="modalRoastLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5">🍖 Herb‑Butter Holiday Roast Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: Europe</h4>
+                                <h4>Historical information:</h4>
+                                <p>Holiday roasts were served during medieval winter feasts across France and Germany.</p>
+                                <h4>Difficulty: 3/5</h4>
+                                <h4>Recipe:</h4>
+                                <p>1. Preheat oven to 200°C (400°F).</p>
+                                <p>2. Rub 1.5kg roast with butter, garlic, rosemary, thyme.</p>
+                                <p>3. Season generously.</p>
+                                <p>4. Roast 1 hour, baste halfway.</p>
+                                <p>5. Rest 10 minutes and slice.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+        <div class="card" style="width: 20rem;">
+            <div id="carouselCocoa" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/hotcocoa1.jpg" class="d-block w-100" alt="Hot Cocoa">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/hotcocoa2.jpg" class="d-block w-100" alt="Hot Cocoa">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/hotcocoa3.jpg.webp" class="d-block w-100" alt="Hot Cocoa">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCocoa" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCocoa" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">☕ Classic Hot Cocoa</h5>
+                <p class="card-text">A warm and creamy winter drink topped with whipped cream.</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCocoa">See recipe</a>
+
+                <div class="modal fade" id="modalCocoa" tabindex="-1" aria-labelledby="modalCocoaLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5">☕ Classic Hot Cocoa Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: Global</h4>
+                                <h4>Historical information:</h4>
+                                <p>Derived from ancient Mesoamerican cacao drinks, later sweetened in Europe.</p>
+                                <h4>Difficulty: 1/5</h4>
+                                <h4>Recipe:</h4>
+                                <p>1. Heat 300ml milk.</p>
+                                <p>2. Mix in 1 tbsp cocoa + 1 tbsp sugar.</p>
+                                <p>3. Add cinnamon.</p>
+                                <p>4. Top with whipped cream.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+        <div class="card" style="width: 20rem;">
+            <div id="carouselPie" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/chpie1.jpg.webp" class="d-block w-100" alt="Christmas Pie">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/chpie2.jpg" class="d-block w-100" alt="Christmas Pie">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/chpie3.jpg" class="d-block w-100" alt="Christmas Pie">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPie" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPie" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">🥧 Cinnamon Apple Christmas Pie</h5>
+                <p class="card-text">A warm and spiced holiday pie filled with cinnamon apples.</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPie">See recipe</a>
+
+                <div class="modal fade" id="modalPie" tabindex="-1" aria-labelledby="modalPieLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5">🥧 Cinnamon Apple Christmas Pie Recipe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Country: England</h4>
+                                <h4>Historical information:</h4>
+                                <p>A traditional winter pie flavored with medieval spices used during Christmas feasts.</p>
+                                <h4>Difficulty: 2/5</h4>
+                                <h4>Recipe:</h4>
+                                <p>1. Preheat oven to 190°C (375°F).</p>
+                                <p>2. Mix apples with sugar, cinnamon, nutmeg.</p>
+                                <p>3. Fill crust and add butter.</p>
+                                <p>4. Cover with top crust.</p>
+                                <p>5. Bake 45–50 minutes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    </main>
+    <footer>
+        <div class="container bottom_border">
+            <ul class="foote_bottom_ul_amrc">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <ul class="social_footer_ul">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+
+            <p class="text-center" style="font-size:12px; margin-top:10px;">Copyright &copy; 2025 Culinary Roots</p>
+        </div>
+    </footer>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
