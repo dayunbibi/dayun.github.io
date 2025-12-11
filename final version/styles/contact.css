@@ -6,7 +6,6 @@
 
 .roboto-condensed-400{
   font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
@@ -15,7 +14,6 @@ html, body {
     height: 100%;
     margin: 0;
     font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     background-color: #9daaa2;
     color: #313131;

@@ -7,6 +7,7 @@
     <meta name="Description" content="Header and footer of our page Culinary Roots">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/home.css">
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -29,10 +30,11 @@
             <div class="logo-area">
                 <img src="../images/image.png" alt="Culinary Roots Logo" class="logo">
             </div>
-            </div>
         </nav>
     </header>
+
 <main class="homepage">
+<!-- hero section -->
 <section class="hero">
   <div class="hero-overlay"></div>
 
@@ -42,7 +44,9 @@
     <a href="browse.html" class="hero-btn">Browse Recipes</a>
   </div>
 </section>
-  <section id="recipes" class="recipe-section">
+
+<!-- top weekly recipes -->
+<section id="recipes" class="recipe-section">
   <h2>This Week's Top Recipes</h2>
 
   <div class="recipe-grid">
@@ -80,7 +84,8 @@
   </div>
 </section>
 
-   <section class="christmas-recipes">
+<!-- christmas recipes section -->
+<section class="christmas-recipes">
   <h2>🎄 Christmas Recipes</h2>
   <div class="recipe-grid">
 <div class="recipe-grid">
@@ -108,6 +113,22 @@
 </div>
 </div>
 </section>
+
+<!-- recipe of the day section -->
+<section class="recipe-of-day">
+  <h2>Recipe of the Day</h2>
+
+  <div class="rod-card" id="rodCard">
+    <img id="rodImage" src="" alt="Recipe of the Day">
+    <h3 id="rodName"></h3>
+    <a id="rodLink" href="browse.html" class="rod-btn">View Recipe</a>
+  </div>
+</section>
+
+<!-- script -->
+<script src="../scripts/recipeOfDay.js"></script>
+
+<!-- statistics section -->
 <section class="stats-section">
   <h2>Most Popular Recipes Statistics</h2>
   <table class="stats-table">
@@ -122,10 +143,13 @@
     <tbody id="statsBody"></tbody>
   </table>
 </section>
+
+<!-- what you're making section -->
 <section class="making-today">
   <h2 class="making-title">What You're Making</h2>
 
   <div class="making-container">
+
     <div class="making-card">
       <div class="making-left">
         <div class="making-user">
@@ -142,6 +166,7 @@
 
       <img src="../images/brulerev.jpg" class="making-image" alt="">
     </div>
+
     <div class="making-card">
       <div class="making-left">
         <div class="making-user">
@@ -167,7 +192,7 @@
         </div>
 
         <p class="making-quote">
-          "This was delicious. Definitely recommend letting dough for nooddles to sit in the fridge overnight."
+          "This was delicious. Definitely recommend letting dough for noodles to sit in the fridge overnight."
         </p>
 
         <a href="browse.html" class="making-link">Ramen</a>
@@ -180,7 +205,8 @@
 </section>
 </main>
 
-    <footer>
+<!-- footer-->
+<footer>
   <div class="container bottom_border">
 
     <ul class="foote_bottom_ul_amrc">
@@ -199,9 +225,13 @@
     <p class="text-center" style="font-size:12px; margin-top:10px;">Copyright &copy; 2025 Culinary Roots</p>
   </div>
 </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- statistics script -->
 <script>
 const recipeStats = [
   { recipe: "Japanese Ramen Favorites", views: 12450, likes: 4980 },
